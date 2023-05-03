@@ -16,6 +16,7 @@
     --color-dark-gray-black: #323232;
     --color-middle-gray: #858585;
     --color-light-gray: #3232325C;
+    --color-light-gray-backround: #F7F7F7;
 }
 
 body {
@@ -127,4 +128,180 @@ section.main-slider footer > a {
     text-transform: uppercase;
     border: 2px solid var(--color-white);
     padding: 10px 17px;
+}
+.functions {
+    background-color: var(--color-brown);
+    height: 425px;
+}
+.functions .inner {
+    justify-content: space-between;
+    gap: 20px;
+}
+.functions .number {
+    font-weight: 400;
+    font-size: var(--fx-md2);
+    color: var(--color-dark-gray-black);
+    opacity: 0.25;
+    line-height: var(--fx-md4);
+    border-bottom: 1px var(--color-dark-gray-black) solid;
+}
+.functions .title {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    text-align: center;
+    margin: 25px 0;
+}
+.functions .icon {
+    text-align: center;
+}
+.functions .text {
+    margin-top: 35px;
+    font-size: var(--fx-md1);
+    line-height: var(--fx-md4);
+    color: var(--color-dark-gray);
+}
+.functions .inner > div {
+    width: 33.33%;
+}
+.motto {
+    height: 395px;
+    background-image: url('images/backgrounds/motto1.png');
+    background-size: cover;
+    background-position: center center;
+}
+.motto .text {
+    color: var(--color-brown);
+    font-size: var(--fx-xxl);
+    line-height: calc(var(--fx-xxl) * 1.15);
+    font-weight: 400;
+    text-align: left;
+}
+.motto .text hr {
+    height: 2px;
+    width: 60px;
+    border-width: 0;
+    background-color: var(--color-brown);
+    margin: 0;
+    margin-top: 25px;
+}
+.team {
+    padding: 75px 0;
+}
+.team .title {
+    text-transform: uppercase;
+    font-size: var(--fx-xl);
+    color: var(--color-dark-gray);
+    font-weight: 400;
+}
+.team .inner {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.team .team-persons {
+    display: flex;
+    gap: 20px;
+}
+.team .name {
+    margin-top:10px;
+    font-size: var(--fx-md2);
+    line-height: calc(var(--fx-md2) * 1.25);
+    color: var(--color-dark-gray);
+}
+.team .position {
+    font-size: var(--fx-sm);
+    color: var(--color-dark-gray);
+    line-height: calc(var(--fx-sm) * 1.67);
+    font-family: 'Vollkorn', serif;
+}
+i.icon:first-child {
+    margin-left: 0;
+}
+i.icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 5px;
+}
+i.facebook {
+    background-image: url('images/social-icons/facebook.svg');
+}
+i.instagram {
+    background-image: url('images/social-icons/instagram.svg');
+}
+i.linked-in {
+    background-image: url('images/social-icons/linked-in.svg');
+}
+i.twitter {
+    background-image: url('images/social-icons/twitter.svg');
+}
+.testimonials {
+    background-color: var(--color-light-gray-backround);
+    padding: 80px 0;
+}
+.testimonials .title {
+    text-transform: uppercase;
+    font-size: var(--fx-md2);
+    line-height: calc(var(--fx-md2) * 1.333);
+    font-weight: 400;
+    color: var(--color-light-gray);
+}
+.testimonials .title hr {
+    border-width: 0;
+    background-color: var(--color-light-gray);
+    height: 2px;
+    width: 60px;
+    margin: 14px auto;
+}
+.testimonials .inner {
+    flex-direction: column;
+}
+.testimonials .panels {
+    margin-top: 45px;
+    display: flex;
+    gap: 60px;
+    text-align: center;
+}
+.testimonials .panels .panel {
+    width: 50%;
+    font-size: var(--fx-md2);
+    line-height: calc(var(--fx-md2) * 1.333);
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+}
+.testimonials .panels .panel .sign {
+    margin-top: 20px;
+    color: var(--color-brown);
+    font-size: var(--fx-md1);
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.container > footer {
+    height: 150px;
+    background-color: var(--color-dark-gray-black);
+}
+.container > footer .logo {
+    color: var(--color-middle-gray);
+}
+.container > footer .logo span {
+    margin-left: 10px;
+}
+.container > footer .logo img, footer .logo span {
+    vertical-align: middle;
+}
+.container > footer .inner {
+    justify-content: space-between;
+    color: var(--color-middle-gray);
+    font-size: var(--fx-sm);
+    font-weight: 400;
+}
+.container > footer .button {
+    color: var(--color-brown);
+    border-color: var(--color-brown);
+    padding-left: 75px;
+    padding-right: 75px;
 }
